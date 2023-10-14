@@ -1,4 +1,4 @@
-*API to-do list *
+*API to-do list*
 
  - Utilizado o Spring Boot como framework de desenvolvimento e
    gerenciamento do back-end.
@@ -30,12 +30,13 @@
  - DOCKER -> Utilizado para configurar o ambiente em que a aplicação vai rodar
 
 **Utilizando a API**
-https://todolist-rocket-85df.onrender.com
+https://todolist-rocket-85df.onrender.com --> link no render.com (não em live na versão free)
 <br>
 
 Criar um usuário
 
     POST https://todolist-rocket-85df.onrender.com/users/
+    POST http://localhost:8080/users/
         {
         	"name": "admin",
         	"username": "admin", //Username é único no banco de dados
@@ -50,6 +51,7 @@ Criar um usuário
 	   
 
     POST https://todolist-rocket-85df.onrender.com/tasks/
+    POST http://localhost:8080/tasks/
     {
     	"description": "descrição da tarefa",
     	"title": "titulo da tarefa",
@@ -65,6 +67,7 @@ Listar tarefas
 Necessário autenticação também
 
     GET https://todolist-rocket-85df.onrender.com/tasks/
+    GET http://localhost:8080/tasks/
 
 <br>
 <br>
@@ -74,6 +77,7 @@ Necessário autenticação e informar o id da task como argumento no path.
 No body você coloca as chaves com valor que você quer alterar.
 
 	PUT https://todolist-rocket-85df.onrender.com/tasks/id
+ 	PUT http://localhost:8080/tasks/id
 
 	{
 		"description": "Atualizando a descrição",
