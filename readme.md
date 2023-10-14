@@ -1,4 +1,4 @@
-**API to-do list **
+*API to-do list *
 
  - Utilizado o Spring Boot como framework de desenvolvimento e
    gerenciamento do back-end.
