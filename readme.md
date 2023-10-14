@@ -1,5 +1,7 @@
 *API to-do list*
 
+ - Maven utilizado no gerencimaneto de dependecias do projeto
+
  - Utilizado o Spring Boot como framework de desenvolvimento e
    gerenciamento do back-end.
 
