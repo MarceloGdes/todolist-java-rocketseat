@@ -30,7 +30,7 @@
  - DOCKER -> Utilizado para configurar o ambiente em que a aplicação vai rodar
 
 **Utilizando a API**
-https://todolist-rocket-85df.onrender.com --> link no render.com (não em live na versão free)
+https://todolist-rocket-85df.onrender.com --> link no render.com (não fica rodando na versão free)
 <br>
 
 Criar um usuário
